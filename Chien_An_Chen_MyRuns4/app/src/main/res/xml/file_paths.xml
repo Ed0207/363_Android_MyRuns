@@ -1,0 +1,6 @@
+<paths>
+    <external-path
+        name = "demo_path"
+        path = "."
+        ></external-path>
+</paths>

@@ -1,0 +1,79 @@
+<LinearLayout 
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="Account Preference"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingBottom="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/userProfileButton"
+        android:text="Name, Email, Class, etc \nuser profile"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        >
+    </TextView>
+    <CheckBox
+        android:id="@+id/userPrivacyButton"
+        android:paddingTop="10dp"
+        android:text="Privacy Setting \n"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"></CheckBox>
+
+
+    <TextView
+        android:text="Additional Settings"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingBottom="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/unitPrefButton"
+        android:paddingTop="10dp"
+        android:text="Unit Prference \nselect the unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+    </TextView>
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/commentButton"
+        android:text="Comments \n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="Misc. "
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingBottom="10dp">
+    </TextView>
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/urlButton"
+        android:text="Webpage \n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    
+</LinearLayout>

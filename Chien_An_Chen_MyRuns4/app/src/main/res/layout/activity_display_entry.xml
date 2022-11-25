@@ -1,0 +1,99 @@
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/displayActivityToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        ></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:text="Input Type: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/inputTypeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:text="Activity Type: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/activityTypeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:text="Date and time: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/dateAndTimeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:text="Duration: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/durationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:text="Distance: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/distanceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:text="Calories: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/caloriesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <TextView
+        android:text="Heart Rate: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/heartRateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id = "@+id/deleteEntryButton"
+        android:text = "delete"
+        android:layout_width="100dp"
+        android:layout_height="50dp">
+    </Button>
+
+</LinearLayout>
